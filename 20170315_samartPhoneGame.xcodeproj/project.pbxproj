@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A184B43A1E7927CD00DE41CB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A184B4391E7927CD00DE41CB /* main.swift */; };
+		A184B4411E792A7400DE41CB /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A184B4401E792A7400DE41CB /* helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A184B4361E7927CD00DE41CB /* 20170315_samartPhoneGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 20170315_samartPhoneGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		A184B4391E7927CD00DE41CB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A184B4401E792A7400DE41CB /* helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = helpers.swift; path = ../helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		A184B4381E7927CD00DE41CB /* 20170315_samartPhoneGame */ = {
 			isa = PBXGroup;
 			children = (
+				A184B4401E792A7400DE41CB /* helpers.swift */,
 				A184B4391E7927CD00DE41CB /* main.swift */,
 			);
 			path = 20170315_samartPhoneGame;
@@ -122,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A184B43A1E7927CD00DE41CB /* main.swift in Sources */,
+				A184B4411E792A7400DE41CB /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
